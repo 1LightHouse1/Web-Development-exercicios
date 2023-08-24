@@ -1,22 +1,49 @@
+body{
+    margin: 0;
+}
+
 nav{
     background-color: black;
     height: 50px;
+    width: auto;
     text-align: center;
 }
 
 nav ul{
     display: inline-block;
+    padding: 0;
     list-style: none;
-    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin-left: 20px;
+
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+    margin: 20px;
 }
 
+.capa figure{
+    padding: 0;
+    margin: 0;
+}
+
+.capa img{
+    padding: 0;
+    display: block;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+
+}
+
+.capa h1{
+    text-align: center;
+}
+
+.capa p{
+    text-align: center;
+}
