@@ -46,4 +46,62 @@ nav ul li a {
 
 .capa p{
     text-align: center;
+    font-weight: bold;
+}
+
+#filme1 h2{
+    text-align: center;
+}
+
+#filme1 img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+}
+
+#filme1 p{
+    text-align: center;
+}
+
+#filme1 {
+    text-align: center;
+}
+
+#filme2 h2{
+    text-align: center;
+}
+
+#filme2 img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+}
+
+#filme2 p{
+    text-align: center;
+}
+
+#filme2{
+    text-align: center;
+}
+
+#filme3 h2{
+    text-align: center;
+}
+
+#filme3 img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+}
+
+#filme3 p{
+    text-align: center;
+}
+
+#filme3{
+    text-align: center;
 }
