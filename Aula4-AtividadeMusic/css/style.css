@@ -65,21 +65,44 @@
     justify-content: center;
     align-items: center;
     border-radius: 5%;
-
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
-    width: 400px;
-    height: 570px;
+    width: 390px;
+    height: 555px;
     color: #FFFFFF;
+    border-radius: 10px;
 }
 
-.card img{
+.card-sessao-dois{
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    border-radius: 10px;
+    gap: 10%;
+}
+
+.card-img figure img{
     width: 100%;
+    border-radius: 5px;
 }
 
-.card-conteudo{
+.card-img-sessao-dois{
+    display: flex;
+    justify-content: center; 
+}
+
+.card-conteudo, .card-conteudo-sessao-dois{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +111,11 @@
     padding: px;
 }
 
-.card-conteudo p{
+.card-conteudo-sessao-dois{
+    gap: 15px;
+}
+
+.card-conteudo, .card-conteudo-sessao-dois p{
     text-align: justify;
 }
 
@@ -96,7 +123,7 @@ section{
     padding: 20px 50px;
 }
 
-.sessao-dance{
+.sessao-dance, .sessao-price{
     background-color: var(--cor-primaria);
     color: #FFFFFF;
     display: flex;
@@ -104,22 +131,97 @@ section{
     gap: 10px;
 }
 
-.cabecalho-secao{
+.sessao-price{
+    background-color: var(--cor-secundaria);    
+}
+
+.cabecalho-sessao, 
+.cabecalho-sessao-dois{
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
 }
 
-.cabecalho-secao p{
+.cabecalho-sessao, 
+.cabecalho-sessao-dois,
+p{
     text-align: justify;
     padding: 10px;
 }
 
-.container-cards{
+.container-cards, .container-cards-sessao-dois{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
+.card-conteudo-sessao-dois a{
+    background-color: var(--cor-secundaria);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.card-conteudo-sessao-dois a:hover{
+    background-color: #585858 ;
+}
+
+.section-amazing{
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.container-amazing{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-amazing{
+    width: 50%;
+}
+
+.img-amazing figure img{
+    width: 100%;
+}
+
+.conteudo-amazing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 40px
+}
+
+.conteudo-amazing h3{
+    font-size: 40px;
+}
+
+.conteudo-amazing p{
+    font-size: 20px;
+}
+
+.conteudo-amazing a{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
