@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Portal Dev</title>
+</head>
+<body>
+    <header>
+        <nav class="cabecalho">
+            <ul>
+                <li>
+                    <a href="#descricao-portal">Nosso Portal</a>
+                </li>
+                <li>
+                    <a href="#cadastro-dev">Cadastre-se</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="descricao-portal">
+        <h1>Nosso Portal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi temporibus consequuntur quas itaque molestiae, 
+            obcaecati unde pariatur nobis modi exercitationem voluptatem totam omnis dignissimos sed velit, s
+            it explicabo suscipit veritatis.
+        </p>
+
+    </main>
+    <section id="cadastro-dev">
+        <h2>Cadastro de Dev</h2>
+        <form action="" method="post">
+            <fieldset class="dados-pessoais">
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="nome">Nome: *</label>
+                    <input 
+                        type="text" 
+                        name="nome" 
+                        id="nome" 
+                        placeholder="informe seu nome" 
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Email: *</label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Informe seu Email" 
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone: *</label>
+                    <input 
+                        type="tel" 
+                        name="telefone" 
+                        id="telefone" 
+                        placeholder="Informe seu telefone" 
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="dtNascimento">Data de Nascimento</label>
+                    <input 
+                        type="date" 
+                        name="dtNascimento" 
+                        id="dtNascimento" 
+                        required
+                    >
+                </div>
+            </fieldset>
+
+            <fieldset class="dados-profissionais">
+                <legend>Dados Profissionais</legend>
+                <div>
+                    <p>Informe sua especializacao: </p>
+                    <div>
+                        <input 
+                            type="radio" 
+                            name="especializacao" 
+                            id="front" 
+                            value="front-end">
+                        <label for="front">Front-end</label>
+                    </div>
+
+                    <div>
+                        <input 
+                            type="radio" 
+                            name="especializacao" 
+                            id="back" 
+                            value="back-end">
+                        <label for="back">Back-end</label>
+                    </div>
+
+                    <div>
+                        <input 
+                            type="radio" 
+                            name="especializacao" 
+                            id="fullstack" 
+                            value="fullstack">
+                        <label for="fullstack">Fullstack</label>
+                    </div>
+                </div> 
+                <br>
+                <div class="experiencia">
+                    <label for="experiencia">Informe sua experiência</label>
+                    <select name="experiencia" id="experiencia">
+                        <option value="" selected>Selecione uma opção</option>
+                        <option value="estagio">Estagio</option>
+                        <option value="juniot">Junior</option>
+                        <option value="pleno">Pleno</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+                </div>
+
+                <div class="mod-trabalho">
+                    <p>Selecione uma modalidade de trabalho</p>
+                    <div>
+                        <input 
+                            type="checkbox" 
+                            name="mod-trabalho" 
+                            id="presencial" 
+                            value="presencial"
+                        >
+                        <label for="presencial">Presencial</label>
+                    </div>
+    
+                    <div>
+                        <input 
+                            type="checkbox" 
+                            name="mod-trabalho" 
+                            id="remoto" 
+                            value="remoto"
+                        >
+                        <label for="remoto">Remoto</label>
+                    </div>
+    
+                    <div>
+                        <input 
+                            type="checkbox" 
+                            name="mod-trabalho" 
+                            id="hibrido" 
+                            value="hibrido"
+                        >
+                        <label for="hibrido">Hibrido</label>
+                    </div>
+                </div>
+                
+                <div class="mensagem">
+                    <label for="">Nos conte um pouco sobre vc</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                </div>
+
+            </fieldset>
+            <div class="form-botoes">
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
