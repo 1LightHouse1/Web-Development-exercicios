@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -36,12 +35,14 @@
 
   body{
     background-image: linear-gradient(120deg,  #fd5f53 0%, #ffb353 100%);
+    background-repeat:no-repeat;
   }
   
   main{
     display: flex ;
     justify-content: center;
     padding: 10px;
+    
   }
 
   .descricao-portal{
@@ -54,8 +55,8 @@
   }
   
   .cadastro-dev{
-
-    width: 30%;
+    
+    width: 40%;
     height: 700px;
 
     border: none;
@@ -66,13 +67,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
   
     margin: auto;
 
-
     background-color: white;  
     box-shadow: 4px 4px 42px -22px rgba(0,0,0,0.75);
+    background-repeat:no-repeat;
 
   }
   
@@ -146,3 +146,7 @@
     font-size: 16px;
   }
   
+  .teste{
+    width: 100%;
+    height: 43px;
+  }
